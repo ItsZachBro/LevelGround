@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box
+}
+
+body{
+    font-size: 1.4rem;
+}
+
+header {
+    background-color: #fca106;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left_header {
+    font-size: 1.5rem;
+  }
+  
+  header button {
+    background-color: #fc7d06;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6%;
+  }
+
+  button{
+    font-size: 1.4rem;
+    border-radius: 5%;
+  }
+
+  body > section.volun > button{
+    background-color: #fca106;
+  }
+  
+  footer {
+    background-color: #fca106;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+header+section {
+    background-color: rgb(146, 59, 111);
+    color: rgb(245, 247, 250);
+}
+
+body > section.Visit  p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+h1{font-size:2.8rem;}
+
+p{
+    text-emphasis: none;
+}
+
+.toppart{
+    background-image:url("levelGroundStorefront.jpg");
+    font-size: 2rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 30%;
+    padding-bottom: 30%; 
+}
+
+body > section.toppart > input[type=button]{
+    font-size: 1.5rem;
+    border-radius: 8%;
+}
+
+.WhySec{
+    text-align: center;
+ 
+    padding-top: 3%;
+    padding-bottom:3%;
+    padding-right:10%;
+    padding-left: 10%;
+    
+}
+
+section {
+    border: .06em black solid;
+    width: 100%;
+    
+}
+
+.Visit{
+    
+    text-align: center;
+
+}
+
+.class{
+    
+    text-align: center;
+}
+
+
+
+
+
+
+.VisitUS{
+    background-image:url("training.png");
+    width:100%;
+    height: 30vh;
+    border-left:10% ;
+    margin-top: 10%;
+    margin-left: 30%;  
+    background-position: center;
+    background-size: cover;
+}
+
+
+.VisitYou{
+    background-image:url("trainingVISIT.png");
+    width:100%;
+    height: 30vh;
+    border-left:10% ;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.volun{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom:2%;
+    padding-right:20%;
+    padding-left: 20%;
+}
+
+.class{
+    text-align: center;
+}
+
+section:nth-child(5) {
+    background-color: rgb(245, 247, 250);
+}
+
+section:nth-child(3) {
+    background-color: rgb(245, 247, 250);
+}
+
+
+.Visit {
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(234, 182, 115);
+}
+
+.Visit section {
+    width: 50%;
+}
+
+.twitterLogo{
+    background-image: url(twitter-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+    
+.fbPic{
+    background-image: url(facebook-logo-in-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+
+.emailPic{
+    background-image: url(email-icon-dark-blue-11562991298gymuxtcvum.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+.vert_footer_lists{
+    list-style-type:none;
+    display: flex;
+    justify-content:space-between;
+}
+.footerLeft h4,
+.right_div h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.footerLeft p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.footerLeft ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footerLeft ul li {
+  margin-right: 10px;
+}
+.right_div{
+    float: right;
+}
+#socialLinks{
+    width: 10%;
+    align-items: flex-start;
+}
+
+#contri{
+    width: 10%;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+#givol{
+    width: 10%;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+
+
+@media (max-width: 390px){
+   .toppart > input[type=button]{
+    display: none;        
+    }
+}
+
+@media (max-width:670px){
+    .toppart{
+        padding-top: 0;
+    }
+}
+
+
+@media (max-width: 800px){
+    .Visit{
+        height:75%;
+    }
+}
+
+@media (max-width: 600px){
+    .right_div{
+        visibility: hidden;
+    }
+    .class{
+        width:100%;
+        word-wrap:normal;
+        flex-flow: wrap;
+    }
+
+    .Visit{
+        flex-wrap: wrap;     
+    }
+
+    .Visit section{
+        width:100%;
+        border: none;
+        
+    }
+
+    .Visit img{
+        object-fit: contain;
+        max-width:100% ;
+    }
+
+    .VisitUS{
+        margin-left: 0;
+    }
+
+    .VisitYou{
+        margin-left: 0;
+    }
+
+}
+
+body > section.Visit > section.hire > h3:nth-child(3) > p{
+    text-emphasis: none;
+}
+
